@@ -1,0 +1,69 @@
+/* ===== Genel Ayarlar ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+/* ===== Header ===== */
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 18px 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08); /* hafif gölge */
+  position: fixed; /* sayfada sabit kalsın */
+  top: 0;
+  left: 0;
+  z-index: 100; /* diğer içeriklerin üstünde olsun */
+}
+.header-container {
+  width: 88%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ===== Logo ===== */
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0, 5px;
+  color: #0b3c0192; /* logo rengi */
+}
+/* ===== Menü ===== */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px; /* Menü öğeleri arası boşluk */
+}
+.nav a {
+  text-decoration: none;
+  color: #1e1e1e; /* menü rengi */
+  font-size: 0, 95rem;
+  font-weight: 500;
+  transition: color 0, 25s ease;
+  letter-spacing: 0.3px;
+}
+.nav a:hover {
+  color: #007b55; /* hover rengi */
+}
+/* ===== Buton ===== */
+.buttonstart {
+ padding: 10px 22px;
+  background-color: #007b55;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 85, 0.2);
+}
+.buttonstart:hover {
+  background-color: #005c3f;
+  box-shadow: 0 6px 14px rgba(0, 123, 85, 0.3);
+  transform: translateY(-1px);
+}
+
